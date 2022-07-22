@@ -89,6 +89,7 @@
               document.getElementById("lib-loading").hidden = true;
               document.getElementById("barcode-picker-starter-button").hidden = false;
               
+              
             });
             barcodePicker.on("scan", function (scanResult) {
               document.getElementById("barcode-result").innerHTML = scanResult.barcodes.reduce(function (
