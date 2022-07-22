@@ -74,7 +74,7 @@
         .then(function () {
           return ScanditSDK.BarcodePicker.create(document.getElementById("barcode-picker"), {
             scanningPaused: true,
-            accessCamera: false,
+            accessCamera: true,
             visible: false,
             playSoundOnScan: true,
             vibrateOnScan: true,
